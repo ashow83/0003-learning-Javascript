@@ -15,13 +15,13 @@ let prProduto = 100;
 
 let formaPag = 3;
 
-if (formaPag === 1){
-    console.log('Débito a vista - 10% desconto: ', (prProduto*0.9).toFixed(2));
-}else if(formaPag === 2){
-    console.log('Dinheiro ou PIX - 15% desconto: ', (prProduto*0.85).toFixed(2));
-}else if(formaPag === 3){
+if (formaPag === 1) {
+    console.log('Débito a vista - 10% desconto: ', (prProduto * 0.9).toFixed(2));
+} else if (formaPag === 2) {
+    console.log('Dinheiro ou PIX - 15% desconto: ', (prProduto * 0.85).toFixed(2));
+} else if (formaPag === 3) {
     console.log('Cartão até Duas vezes: ', (prProduto).toFixed(2));
-}else if(formaPag === 4){
-    console.log('Cartão Acima Duas vezes: ',(prProduto*1.1).toFixed(2));
+} else if (formaPag === 4) {
+    console.log('Cartão Acima Duas vezes: ', (prProduto * 1.1).toFixed(2));
 }
 
