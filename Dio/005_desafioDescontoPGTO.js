@@ -5,10 +5,10 @@ Utilize os códigos da tabela a seguir para ler qual a condição de pagamento e
 adequado.
 
 Código Condição de pagamento:
-- À vista Débito, recebe 10% de desconto;
-- À vista no Dinheiro ou PIX, recebe 15% de desconto;
-- Em duas vezes, preço normal de etiqueta sem juros;
-- Acima de duas vezes, preço normal de etiqueta mais juros de 10%;
+1 - À vista Débito, recebe 10% de desconto;
+2 - À vista no Dinheiro ou PIX, recebe 15% de desconto;
+3 - Em duas vezes, preço normal de etiqueta sem juros;
+4 - Acima de duas vezes, preço normal de etiqueta mais juros de 10%;
 */
 
 let prProduto = 100;
