@@ -11,23 +11,23 @@ voce terá 5 variaveis. sendo elas:
 
  */
 
- console.log('Sistema calculo combustivel');
+console.log('Sistema calculo combustivel');
 
- const precoEtanol = 5.79;
- const precoGasolina = 6.66;
- let tipoCombustivel = 'Etanol'; 
- const kmLitro = 10;
- let distanciaKm = 100;
+const precoEtanol = 5.79;
+const precoGasolina = 6.66;
+let tipoCombustivel = 'Etanol';
+const kmLitro = 10;
+let distanciaKm = 100;
 
- if (tipoCombustivel === 'Gasolina'){
-    let valorViagem = (distanciaKm/kmLitro)*precoEtanol;
-    console.log('valor da viagem é para Etanol: ',valorViagem.toFixed(2));
+if (tipoCombustivel === 'Etanol') {
+    let valorViagem = (distanciaKm / kmLitro) * precoEtanol;
+    console.log('valor da viagem para Etanol: ', valorViagem.toFixed(2));
 
- } else {
-    let valorViagem = (distanciaKm/kmLitro)*precoGasolina;
-    console.log('valor da viagem é para Gasolina: ',valorViagem.toFixed(2));
+} else {
+    let valorViagem = (distanciaKm / kmLitro) * precoGasolina;
+    console.log('valor da viagem para Gasolina: ', valorViagem.toFixed(2));
 
- }   
+}
 
- 
+
 
