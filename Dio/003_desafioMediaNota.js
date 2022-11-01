@@ -19,9 +19,9 @@ console.log('Sua média foi: ', media.toFixed(2))
 
 if (media < 5) {
     console.log('Reprovado');
-} else if(media < 7){
+} else if (media < 7) {
     console.log('Recuperação');
-} else{
+} else {
     console.log('Passou no Semestre');
 }
 
