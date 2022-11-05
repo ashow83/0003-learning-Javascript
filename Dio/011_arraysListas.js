@@ -15,9 +15,9 @@ let somaNotas = 0;
 
 for (let index = 0; index < notas.length; index++) {
     somaNotas = somaNotas + notas[index];
-    
+
 }
 
 
 
-console.log('Você fez ' + notas.length + ' prova(s) e sua média foi '+ (somaNotas/notas.length).toFixed(2));
+console.log('Você fez ' + notas.length + ' prova(s) e sua média foi ' + (somaNotas / notas.length).toFixed(2));
